@@ -1,0 +1,11 @@
+Business Analysis:
+ Count the number of categories.(i want as a site admin  to be able to count the categories numbers so that administration is easy | requirements : display the categories numbers)
+ List the top 20 merchants with the most five-star reviews.(i want as a site admin to be able to know which are the top 20 most five star rated merchants so that i can recommende them more)
+
+User Analysis:
+ Analyze the yearly growth of user sign-ups.(i want as a site admin to know the yearly user sign-ups growth so that i can know how much progress we make yearly)
+ Calculate the ratio of elite users to regular users each year(i want as a site admin to know the so that i can create more accurate analyses )
+ Summarize the yearly statistics for new users, review counts, elite users, tip counts, and check-in counts.(as a site admin i want to show the Summarized yearly statistics so that can further improve my website)
+
+Comprehensive Analysis:
+ Identify the top 5 merchants in each city based on rating frequency, average rating, and check-in frequency.
