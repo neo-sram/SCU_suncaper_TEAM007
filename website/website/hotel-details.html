@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('images/hotel.jpg') no-repeat center center fixed; /* Set background image */
+            background-size: cover;
+        }
+        .heading {
+            text-align: center;
+            color: rgb(245, 42, 42);
+            margin-bottom: 20px;
+            font-size: 24px; /* Increased font size */
+            padding: 10px 0; /* Added padding */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            margin-bottom: 20px; /* Added margin bottom */
+        }
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2 class="heading">Hotel Details</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Address</th>
+            <th>Stars</th>
+            <th>Hours</th>
+            <th>State</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=4582+N+1st+Ave,+S...">4582 N 1st Ave, S...</a></td>
+            <td>E_kLUlU60fzoZYAOx...</td>
+            <td>4582 N 1st Ave, S...</td>
+            <td><a href="rate_medical.html?medical_facility=4582 N 1st Ave, S...">2.5</a></td>
+            <td>7:0-16:30, 7:0-1...</td>
+            <td>AZ</td>
+            <td>Tucson</td>
+        </tr>
+        
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=River+127">River 127</a></td>
+            <td>w_AMNoI1iG9eay7nc...</td>
+            <td>100 Iberville St</td>
+            <td><a href="rate_hotel.html?hotel_name=River 127">3.0</a></td>
+            <td>NULL</td>
+            <td>LA</td>
+            <td>New Orleans</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Fairfield+Inn+%26+Suites+by+Marriott+Kennett+Square+Brandywine+Valley">Fairfield Inn & Suites by Marriott Kennett Square Brandywine Valley</a></td>
+            <td>xM6LoUcnpDpMBzXs_...</td>
+            <td>719 E Baltimore Pike</td>
+            <td><a href="rate_hotel.html?hotel_name=Fairfield Inn & Suites by Marriott Kennett Square Brandywine Valley">3.0</a></td>
+            <td>NULL</td>
+            <td>PA</td>
+            <td>Kennett Square</td>
+        </tr>
+        <!-- Additional rows -->
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=New+Orleans+Spiritual+Advisor">New Orleans Spiritual Advisor</a></td>
+            <td>uczmbBk5O3tYhGue1...</td>
+            <td>723 St Peter St</td>
+            <td><a href="rate_hotel.html?hotel_name=New Orleans Spiritual Advisor">4.0</a></td>
+            <td>{10:0-20:0, 0:0-0...</td>
+            <td>LA</td>
+            <td>New Orleans</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Big+Boyz+Toyz+Motorsports">Big Boyz Toyz Motorsports</a></td>
+            <td>eYxGFkxo6m3SYGVTh...</td>
+            <td>4158 E Grant Rd</td>
+            <td><a href="rate_hotel.html?hotel_name=Big Boyz Toyz Motorsports">4.5</a></td>
+            <td>{8:30-18:0, 8:30-1...</td>
+            <td>AZ</td>
+            <td>Tucson</td>
+        </tr>
+        <!-- More rows -->
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Quality+Inn+Nashville+Downtown+-+Stadium">Quality Inn Nashville Downtown - Stadium</a></td>
+            <td>Nh1rc9aSeO-Y5lYmX...</td>
+            <td>303 Interstate Dr</td>
+            <td><a href="rate_hotel.html?hotel_name=Quality Inn Nashville Downtown - Stadium">2.0</a></td>
+            <td>{0:0-0:0, 0:0-0:0...</td>
+            <td>TN</td>
+            <td>Nashville</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Enjoy+The+Mountain">Enjoy The Mountain</a></td>
+            <td>25Uww0C0wvF9CZ_3B...</td>
+            <td>1 Garden St</td>
+            <td><a href="rate_hotel.html?hotel_name=Enjoy The Mountain">4.5</a></td>
+            <td>{9:0-17:0, 9:0-17...</td>
+            <td>CA</td>
+            <td>Santa Barbara</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Watson+Adventures+LLC">Watson Adventures LLC</a></td>
+            <td>MyE_zdul_JO-dOHOu...</td>
+            <td></td>
+            <td><a href="rate_hotel.html?hotel_name=Watson Adventures LLC">3.0</a></td>
+            <td>{9:0-17:0, 9:0-17...</td>
+            <td>PA</td>
+            <td>Philadelphia</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Rancho+777">Rancho 777</a></td>
+            <td>vjLSYNGFkPu4Y5HKo...</td>
+            <td>777 E 4th St</td>
+            <td><a href="rate_hotel.html?hotel_name=Rancho 777">2.0</a></td>
+            <td>{0:0-0:0, 0:0-0:0...</td>
+            <td>NV</td>
+            <td>Reno</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=1-275+Rest+Area+Manatee+County">1-275 Rest Area Manatee County</a></td>
+            <td>xloFoRiYlH4IKGz3F...</td>
+            <td>13018 Rest Area</td>
+            <td><a href="rate_hotel.html?hotel_name=1-275 Rest Area Manatee County">4.0</a></td>
+            <td>NULL</td>
+            <td>FL</td>
+            <td>Terra Ceia</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Best+Tours">Best Tours</a></td>
+            <td>usv5G5cO314pPHRTG...</td>
+            <td></td>
+            <td><a href="rate_hotel.html?hotel_name=Best Tours">1.0</a></td>
+            <td>NULL</td>
+            <td>PA</td>
+            <td>Philadelphia</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Aloft+Philadelphia+Airport">Aloft Philadelphia Airport</a></td>
+            <td>6I_DA3uqOox50rBvj...</td>
+            <td>4301 Island Ave</td>
+            <td><a href="rate_hotel.html?hotel_name=Aloft Philadelphia Airport">3.0</a></td>
+            <td>{0:0-0:0, 0:0-0:0...</td>
+            <td>PA</td>
+            <td>Philadelphia</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Bourgoyne+Guest+House">Bourgoyne Guest House</a></td>
+            <td>bwL2TymVrYekkkKzt...</td>
+            <td>839 Bourbon St</td>
+            <td><a href="rate_hotel.html?hotel_name=Bourgoyne Guest House">4.0</a></td>
+            <td>NULL</td>
+            <td>LA</td>
+            <td>New Orleans</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Taste+of+Nawlins">Taste of Nawlins</a></td>
+            <td>Qa1YQzo00sm9O0JUl...</td>
+            <td>504 Madison St</td>
+            <td><a href="rate_hotel.html?hotel_name=Taste of Nawlins">4.0</a></td>
+            <td>{9:0-22:0, 9:0-22...</td>
+            <td>LA</td>
+            <td>New Orleans</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Enterprise+Rent-A-Car">Enterprise Rent-A-Car</a></td>
+            <td>6zBCuzJwov08YisHZ...</td>
+            <td>9213 W Fairview Ave</td>
+            <td><a href="rate_hotel.html?hotel_name=Enterprise Rent-A-Car">4.0</a></td>
+            <td>{8:0-18:0, 0:0-0:0...</td>
+            <td>ID</td>
+            <td>Boise</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.com/maps/search/?api=1&query=Days+Inn+by+Wyndham+Reno+South">Days Inn by Wyndham Reno South</a></td>
+            <td>XTWGzxXdQN0DVVH2G...</td>
+            <td>5851 S Virginia St</td>
+            <td><a href="rate_hotel.html?hotel_name=Days Inn by Wyndham Reno South">2.0</a></td>
+            <td>{0:0-0:0, 0:0-0:0...</td>
+            <td>NV</td>
+            <td>Reno</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    
+}
+
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #601cfc;
+
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/doblghaba.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+
+
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgba(246, 167, 70, 0.523);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #ff8000;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: rgb(214, 144, 83);
+    background-color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    
+}
+
+.main-btn:hover {
+    background-color: #ff8000;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: brown;
+    font-size: 4em;
+    text-align: center;
+
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 350;
+    margin: 10px;
+    
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.names-column {
+    width: 70%; /* Adjust width as needed */
+}
+
+.fans-column {
+    width: 30%; /* Adjust width as needed */
+}
+
+
+
+.categories{
+    background-color: #000016;
+
+ 
+}
+
+.categories .content {
+    margin-top: 30px;
+
+}
+
+.categories .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Align items horizontally */
+    gap: 20px; /* Add some space between the project cards */
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 12em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+
+.project-card:hover {
+    transform: scale(1.1);
+
+}
+
+.project-card:hover .project-image {
+    opacity: 1;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+
+.project-info {
+    padding:1em;
+}
+
+.project-category {
+    font-size:0.8em;
+    color: #000016;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details {
+    text-decoration: none;
+    color: brown;
+}
+
+.more-details:hover {
+    color:brown;
+}
+
+.locations {
+    background-color: rgb(245, 174, 43);
+}
+
+

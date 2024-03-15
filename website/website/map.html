@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Google Maps</title>
+  <style>
+    /* CSS to center the iframe */
+    .map-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Set the height of the container to 100% of the viewport height */
+      background-color: grey; /* Change background color to black */
+    }
+
+    /* Set max-width for the map to prevent it from exceeding the viewport width */
+    iframe {
+      max-width: 100%;
+      height: 100%; /* Make sure the iframe fills the container vertically */
+    }
+
+    /* Style to change the color of the h1 heading to orange */
+    h1 {
+      color: orange;
+      background-color: black;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 600;
+      display: inline-block;
+      padding: 0.9375em 2.1875em;
+      letter-spacing: 1px;
+      border-radius: 15px;
+      margin-bottom: 40px;
+      
+
+    }
+   
+  </style>
+</head>
+<body>
+  <h1>Map:</h1>
+  <!-- Updated location in the iframe -->
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26515866.254280455!2d104.13743495!3d35.780286950000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31508e64e5c642c1%3A0x951daa7c349f366f!2sChina!5e0!3m2!1sfr!2sjp!4v1710504154105&output=embed&style=feature:all|element:all|color:orange" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
